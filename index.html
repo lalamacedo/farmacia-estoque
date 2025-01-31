@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerenciamento de Estoque</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function imprimirEstoque() {
+            window.print();
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Gerenciamento de Estoque - Farmácia Hospitalar</h1>
+    </header>
+    <nav>
+        <a href="index.html">Estoque</a>
+        <a href="adicionar_item.html">Adicionar Item</a>
+    </nav>
+    <div class="container">
+        <h2>Estoque Atual</h2>
+        <button onclick="imprimirEstoque()">Imprimir Estoque</button>
+        <table>
+            <tr>
+                <th>Nome</th><th>Categoria</th><th>Tipo</th><th>Quantidade</th><th>Ações</th>
+            </tr>
+            <tr>
+                <td>Dipirona</td><td>Medicamento</td><td>Comprimido</td><td>15</td>
+                <td>
+                    <a href="detalhes_item.html"><button>Detalhes</button></a>
+                    <a href="editar_item.html"><button>Editar</button></a>
+                    <a href="excluir_item.html"><button>Excluir</button></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
