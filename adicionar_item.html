@@ -10,12 +10,12 @@
         <h1>Gerenciamento de Estoque - Farmácia Hospitalar</h1>
     </header>
     <h2>Adicionar Novo Item</h2>
-    <form>
-        <label>Nome: <input type="text"></label><br>
-        <label>Categoria: <input type="text"></label><br>
-        <label>Tipo: <input type="text"></label><br>
-        <label>Quantidade: <input type="number"></label><br>
-        <a href="index.html"> <button> Adicionar </button> </a>
+    <form action="index.html" method="GET">
+        <label>Nome: <input type="text" name="nome" ></label><br>
+        <label>Categoria: <input type="text" name="categoria"></label><br>
+        <label>Tipo: <input type="text" name="tipo" ></label><br>
+        <label>Quantidade: <input type="number" name="quantidade" ></label><br>
+        <button type="submit">Adicionar</button>
     </form>
 </body>
 </html>
