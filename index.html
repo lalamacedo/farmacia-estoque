@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Gerenciamento de Estoque</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <script>
         function imprimirEstoque() {
             window.print();
@@ -14,13 +14,12 @@
     <header>
         <h1>Gerenciamento de Estoque - Farmácia Hospitalar</h1>
     </header>
-    <nav>
-        <a href="index.html">Estoque</a>
-        <a href="adicionar_item.html">Adicionar Item</a>
-    </nav>
+  
     <div class="container">
         <h2>Estoque Atual</h2>
         <button onclick="imprimirEstoque()">Imprimir Estoque</button>
+         <a href="adicionar_item.html"> <button> Adicionar Item </button></a> 
+   
         <table>
             <tr>
                 <th>Nome</th><th>Categoria</th><th>Tipo</th><th>Quantidade</th><th>Ações</th>
