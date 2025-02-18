@@ -75,3 +75,18 @@ th {
 td button {
     margin: 5px;
 }
+
+/* Responsividade */
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
